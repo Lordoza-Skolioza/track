@@ -1,0 +1,45 @@
+body {
+  /* background: linear-gradient(45deg, rgba(34,193,195,1) 36%, rgba(253,187,45,1) 63%); <---- baguje sie tło div'a :/*/
+  background-color: rgb(97, 194, 68);
+  min-width:1100px;
+  max-width:2000px;
+}
+.srodek {
+  background-color: yellow;
+  text-align: center;
+  content: center;
+  margin-top: 30px;
+}
+p:last-child {
+  color: #ffffff18;
+}
+p:last-child::selection {
+  color: #ffffff23;
+  background: rgb(111, 0, 255);
+}
+
+button {
+  border-style: solid;
+  border-width: 3px;
+  background-color: #2a409e;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+button:hover {
+  background-color: #5664a0ee;
+}
+
+button:nth-child(odd) {
+  width: 13%;
+  height: 40px;
+}
+button:nth-child(even) {
+  width: 7%;
+  height: 40px;
+}
+
+#XD{
+    background-color: red;
+    text-align: center;
+    content: center;
+}
