@@ -1,2 +1,0 @@
-# Pewnie
-tsjaa
